@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyCustomTableViewCell" rowHeight="115" id="KGk-i7-Jjw" customClass="MyCustomTableViewCell" customModule="TCM_XXI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="370" height="115"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mailNotHereImage" translatesAutoresizingMaskIntoConstraints="NO" id="rQv-dB-KQt">
+                        <rect key="frame" x="0.0" y="17.5" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="WW9-OI-UMo"/>
+                            <constraint firstAttribute="height" constant="80" id="vV0-Ne-I1u"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVK-GF-TcU">
+                        <rect key="frame" x="88" y="8" width="274" height="99"/>
+                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="24"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="jVK-GF-TcU" secondAttribute="bottom" constant="8" id="F99-Cs-vMW"/>
+                    <constraint firstItem="rQv-dB-KQt" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="TkN-Ph-MRb"/>
+                    <constraint firstItem="jVK-GF-TcU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="pg7-vl-rDj"/>
+                    <constraint firstItem="jVK-GF-TcU" firstAttribute="leading" secondItem="rQv-dB-KQt" secondAttribute="trailing" constant="8" id="qDQ-Jj-8Pt"/>
+                    <constraint firstItem="rQv-dB-KQt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="tmK-OG-f4B"/>
+                    <constraint firstAttribute="trailing" secondItem="jVK-GF-TcU" secondAttribute="trailing" constant="8" id="vYV-Yk-9MT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="myImageView" destination="rQv-dB-KQt" id="uQw-6o-1zN"/>
+                <outlet property="myLabel" destination="jVK-GF-TcU" id="OZA-DZ-0aj"/>
+            </connections>
+            <point key="canvasLocation" x="173.91304347826087" y="176.45089285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="mailNotHereImage" width="100" height="100"/>
+    </resources>
+</document>

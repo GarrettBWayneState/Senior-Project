@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  TCM-XXI
 //
-//  Created by Alexander Lester on 6/25/17.
-//  Copyright © 2017 LAGB. All rights reserved.
+//  Created by Garrett Berger on 9/25/21.
+//  Copyright © 2021 LAGB. All rights reserved.
 //
 
 import UIKit
@@ -13,9 +13,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+
+        
+       // UITabBar.appearance().tintColor = UIColor(red: 255/10.0, green: 255/255.0, blue: 255/255.0, alpha: 1.0)
         return true
     }
 

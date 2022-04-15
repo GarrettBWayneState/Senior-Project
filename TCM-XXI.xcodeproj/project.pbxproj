@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5307700B272AF4EE00432F69 /* MyCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53077009272AF4EE00432F69 /* MyCustomTableViewCell.swift */; };
+		5311D159270662B200CD40A5 /* DataDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5311D158270662B200CD40A5 /* DataDisplayViewController.swift */; };
+		531EA747272B0DA100BC0635 /* MyCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5307700A272AF4EE00432F69 /* MyCustomTableViewCell.xib */; };
+		5324EDE326FF6D370038F62B /* BluetoothDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5324EDE226FF6D370038F62B /* BluetoothDevice.swift */; };
+		535AFDFA26FA0C320043C25E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 535AFDF926FA0C320043C25E /* Main.storyboard */; };
+		535AFDFC26FA0C480043C25E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 535AFDFB26FA0C480043C25E /* LaunchScreen.storyboard */; };
+		53AB974227285191008BF0C5 /* MailArrived.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AB974127285191008BF0C5 /* MailArrived.swift */; };
+		53AB9744272851A7008BF0C5 /* MailNotArrived.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AB9743272851A7008BF0C5 /* MailNotArrived.swift */; };
 		AB74918E1F005A07007CDFB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74918D1F005A07007CDFB4 /* AppDelegate.swift */; };
-		AB7491901F005A07007CDFB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74918F1F005A07007CDFB4 /* ViewController.swift */; };
-		AB7491931F005A07007CDFB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7491911F005A07007CDFB4 /* Main.storyboard */; };
+		AB7491901F005A07007CDFB4 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB74918F1F005A07007CDFB4 /* MainVC.swift */; };
 		AB7491951F005A07007CDFB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7491941F005A07007CDFB4 /* Assets.xcassets */; };
-		AB7491981F005A07007CDFB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7491961F005A07007CDFB4 /* LaunchScreen.storyboard */; };
+		AB7491A21F005A59007CDFB4 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7491A11F005A59007CDFB4 /* HistoryVC.swift */; };
+		AB7491A41F005A62007CDFB4 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7491A31F005A62007CDFB4 /* SettingsVC.swift */; };
+		AB7491A91F005A98007CDFB4 /* BluetoothSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7491A81F005A98007CDFB4 /* BluetoothSetup.swift */; };
+		AB7491AB1F005AA2007CDFB4 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7491AA1F005AA2007CDFB4 /* KDCircularProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53077009272AF4EE00432F69 /* MyCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCell.swift; sourceTree = "<group>"; };
+		5307700A272AF4EE00432F69 /* MyCustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomTableViewCell.xib; sourceTree = "<group>"; };
+		5311D158270662B200CD40A5 /* DataDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDisplayViewController.swift; sourceTree = "<group>"; };
+		5324EDE226FF6D370038F62B /* BluetoothDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDevice.swift; sourceTree = "<group>"; };
+		535AFDF926FA0C320043C25E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		535AFDFB26FA0C480043C25E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53AB974127285191008BF0C5 /* MailArrived.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailArrived.swift; sourceTree = "<group>"; };
+		53AB9743272851A7008BF0C5 /* MailNotArrived.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailNotArrived.swift; sourceTree = "<group>"; };
 		AB74918A1F005A07007CDFB4 /* TCM-XXI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCM-XXI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB74918D1F005A07007CDFB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB74918F1F005A07007CDFB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AB7491921F005A07007CDFB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB74918F1F005A07007CDFB4 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		AB7491941F005A07007CDFB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AB7491971F005A07007CDFB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB7491991F005A07007CDFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7491A11F005A59007CDFB4 /* HistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		AB7491A31F005A62007CDFB4 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		AB7491A81F005A98007CDFB4 /* BluetoothSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothSetup.swift; sourceTree = "<group>"; };
+		AB7491AA1F005AA2007CDFB4 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,56 @@
 		AB74918C1F005A07007CDFB4 /* TCM-XXI */ = {
 			isa = PBXGroup;
 			children = (
-				AB74918D1F005A07007CDFB4 /* AppDelegate.swift */,
-				AB74918F1F005A07007CDFB4 /* ViewController.swift */,
-				AB7491911F005A07007CDFB4 /* Main.storyboard */,
-				AB7491941F005A07007CDFB4 /* Assets.xcassets */,
-				AB7491961F005A07007CDFB4 /* LaunchScreen.storyboard */,
-				AB7491991F005A07007CDFB4 /* Info.plist */,
+				AB7491A71F005A79007CDFB4 /* View Controllers */,
+				AB7491A01F005A2C007CDFB4 /* Storyboard */,
+				AB74919F1F005A1A007CDFB4 /* Info */,
+				AB7491AC1F005AA5007CDFB4 /* Backend */,
 			);
 			path = "TCM-XXI";
+			sourceTree = "<group>";
+		};
+		AB74919F1F005A1A007CDFB4 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				AB74918D1F005A07007CDFB4 /* AppDelegate.swift */,
+				AB7491941F005A07007CDFB4 /* Assets.xcassets */,
+				AB7491991F005A07007CDFB4 /* Info.plist */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		AB7491A01F005A2C007CDFB4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				535AFDFB26FA0C480043C25E /* LaunchScreen.storyboard */,
+				535AFDF926FA0C320043C25E /* Main.storyboard */,
+				5311D158270662B200CD40A5 /* DataDisplayViewController.swift */,
+				53077009272AF4EE00432F69 /* MyCustomTableViewCell.swift */,
+				5307700A272AF4EE00432F69 /* MyCustomTableViewCell.xib */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		AB7491A71F005A79007CDFB4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB74918F1F005A07007CDFB4 /* MainVC.swift */,
+				AB7491A11F005A59007CDFB4 /* HistoryVC.swift */,
+				AB7491A31F005A62007CDFB4 /* SettingsVC.swift */,
+				53AB974127285191008BF0C5 /* MailArrived.swift */,
+				53AB9743272851A7008BF0C5 /* MailNotArrived.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AB7491AC1F005AA5007CDFB4 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				AB7491A81F005A98007CDFB4 /* BluetoothSetup.swift */,
+				5324EDE226FF6D370038F62B /* BluetoothDevice.swift */,
+				AB7491AA1F005AA2007CDFB4 /* KDCircularProgress.swift */,
+			);
+			name = Backend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,14 +158,14 @@
 				TargetAttributes = {
 					AB7491891F005A07007CDFB4 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = VWSMFUQHS2;
+						DevelopmentTeam = 38QBJ48SPQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = AB7491851F005A07007CDFB4 /* Build configuration list for PBXProject "TCM-XXI" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -124,9 +186,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB7491981F005A07007CDFB4 /* LaunchScreen.storyboard in Resources */,
+				535AFDFC26FA0C480043C25E /* LaunchScreen.storyboard in Resources */,
 				AB7491951F005A07007CDFB4 /* Assets.xcassets in Resources */,
-				AB7491931F005A07007CDFB4 /* Main.storyboard in Resources */,
+				535AFDFA26FA0C320043C25E /* Main.storyboard in Resources */,
+				531EA747272B0DA100BC0635 /* MyCustomTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,31 +200,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB7491901F005A07007CDFB4 /* ViewController.swift in Sources */,
+				AB7491A91F005A98007CDFB4 /* BluetoothSetup.swift in Sources */,
+				AB7491901F005A07007CDFB4 /* MainVC.swift in Sources */,
+				5311D159270662B200CD40A5 /* DataDisplayViewController.swift in Sources */,
+				AB7491A41F005A62007CDFB4 /* SettingsVC.swift in Sources */,
+				AB7491A21F005A59007CDFB4 /* HistoryVC.swift in Sources */,
+				53AB974227285191008BF0C5 /* MailArrived.swift in Sources */,
+				53AB9744272851A7008BF0C5 /* MailNotArrived.swift in Sources */,
 				AB74918E1F005A07007CDFB4 /* AppDelegate.swift in Sources */,
+				5324EDE326FF6D370038F62B /* BluetoothDevice.swift in Sources */,
+				5307700B272AF4EE00432F69 /* MyCustomTableViewCell.swift in Sources */,
+				AB7491AB1F005AA2007CDFB4 /* KDCircularProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		AB7491911F005A07007CDFB4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB7491921F005A07007CDFB4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AB7491961F005A07007CDFB4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB7491971F005A07007CDFB4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AB74919A1F005A07007CDFB4 /* Debug */ = {
@@ -261,12 +314,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VWSMFUQHS2;
+				DEVELOPMENT_TEAM = 38QBJ48SPQ;
 				INFOPLIST_FILE = "TCM-XXI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LAGB.TCM-XXI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -274,12 +327,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VWSMFUQHS2;
+				DEVELOPMENT_TEAM = 38QBJ48SPQ;
 				INFOPLIST_FILE = "TCM-XXI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LAGB.TCM-XXI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -302,6 +355,7 @@
 				AB74919E1F005A07007CDFB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
